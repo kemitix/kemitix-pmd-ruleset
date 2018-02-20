@@ -193,4 +193,17 @@ http://pmd.sourceforge.net/ruleset/2.0.0 ">
     <rule ref="category/java/design.xml/UseObjectForClearerAPI" />
     <rule ref="category/java/design.xml/UseUtilityClass" />
 
+    <!-- Documentation -->
+    <rule ref="category/java/documentation.xml/CommentRequired" >
+        <properties>
+            <property name="enumCommentRequirement" value="Ignored"/>
+            <property name="fieldCommentRequirement" value="Ignored"/>
+            <property name="headerCommentRequirement" value="Ignored"/>
+            <!-- only public and protected methods are required -->
+        </properties>
+    </rule>
+    <rule ref="category/java/documentation.xml/CommentSize" />
+    <rule ref="category/java/documentation.xml/UncommentedEmptyConstructor" />
+    <rule ref="category/java/documentation.xml/UncommentedEmptyMethodBody" />
+
 </ruleset>
