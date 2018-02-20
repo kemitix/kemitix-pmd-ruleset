@@ -16,6 +16,7 @@
     <version>0.1.0-SNAPSHOT</version>
 
     <name>Kemitix PMD Ruleset</name>
+    <description>Kemitix PMD Ruleset for Java</description>
 
     <properties>
         <tiles-maven-plugin.version>2.10</tiles-maven-plugin.version>
