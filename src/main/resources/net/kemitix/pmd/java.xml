@@ -218,7 +218,7 @@ http://pmd.sourceforge.net/ruleset/2.0.0 ">
     <rule ref="category/java/errorprone.xml/AvoidDecimalLiteralsInBigDecimalConstructor"/>
     <rule ref="category/java/errorprone.xml/AvoidDuplicateLiterals">
         <properties>
-            <property name="maxDuplicateLiterals" value="1"/>
+            <property name="maxDuplicateLiterals" value="2"/>
         </properties>
     </rule>
     <rule ref="category/java/errorprone.xml/AvoidEnumAsIdentifier"/>
