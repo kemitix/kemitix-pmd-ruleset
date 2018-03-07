@@ -1,6 +1,12 @@
 CHANGELOG
 =========
 
+0.2.0
+-----
+
+* Disable `CommentSize` - didn't agree with MIT License headers
+* Relaxed `AvoidDuplicateLiterals.maxDuplicateLiterals` - value is when to fail, not the max allowed
+
 0.1.0
 -----
 
