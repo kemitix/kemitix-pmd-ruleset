@@ -7,11 +7,10 @@
     <parent>
         <groupId>net.kemitix</groupId>
         <artifactId>kemitix-parent</artifactId>
-        <version>5.1.0</version>
+        <version>5.1.1</version>
         <relativePath/>
     </parent>
 
-    <groupId>net.kemitix</groupId>
     <artifactId>kemitix-pmd-ruleset</artifactId>
     <version>DEV-SNAPSHOT</version>
 
