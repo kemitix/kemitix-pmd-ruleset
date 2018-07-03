@@ -171,7 +171,6 @@ http://pmd.sourceforge.net/ruleset/2.0.0 ">
     <rule ref="category/java/design.xml/FinalFieldCouldBeStatic"/>
     <rule ref="category/java/design.xml/GodClass"/>
     <rule ref="category/java/design.xml/ImmutableField"/>
-    <rule ref="category/java/design.xml/LawOfDemeter"/><!-- Can this cope with Streams -->
     <rule ref="category/java/design.xml/LogicInversion"/>
     <rule ref="category/java/design.xml/NcssCount"/>
     <rule ref="category/java/design.xml/NPathComplexity">
