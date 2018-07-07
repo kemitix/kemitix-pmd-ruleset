@@ -1,6 +1,13 @@
 CHANGELOG
 =========
 
+0.3.0
+-----
+
+* Upgrade `kemitix-parent` to 5.1.1
+* Remove unused tiles
+* Disable PMD check `LawOfDemeter` due to Java Streams giving false positives
+
 0.2.1
 -----
 
