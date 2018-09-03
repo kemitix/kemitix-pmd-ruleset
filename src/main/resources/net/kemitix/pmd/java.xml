@@ -104,6 +104,7 @@ http://pmd.sourceforge.net/ruleset/2.0.0 ">
     <rule ref="category/java/codestyle.xml/GenericsNaming"/>
     <rule ref="category/java/codestyle.xml/IfElseStmtsMustUseBraces"/>
     <rule ref="category/java/codestyle.xml/IfStmtsMustUseBraces"/>
+    <rule ref="category/java/codestyle.xml/LinguisticNaming" />
     <rule ref="category/java/codestyle.xml/LocalVariableCouldBeFinal"/>
     <rule ref="category/java/codestyle.xml/LongVariable"/>
     <rule ref="category/java/codestyle.xml/MethodArgumentCouldBeFinal"/>
