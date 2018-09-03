@@ -98,6 +98,7 @@ http://pmd.sourceforge.net/ruleset/2.0.0 ">
             <property name="ignoreEnumDeclarations" value="false"/>
         </properties>
     </rule>
+    <rule ref="category/java/codestyle.xml/FieldNamingConventions" />
     <rule ref="category/java/codestyle.xml/ForLoopShouldBeWhileLoop"/>
     <rule ref="category/java/codestyle.xml/ForLoopsMustUseBraces"/>
     <rule ref="category/java/codestyle.xml/GenericsNaming"/>
