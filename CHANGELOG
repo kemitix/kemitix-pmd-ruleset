@@ -1,6 +1,15 @@
 CHANGELOG
 =========
 
+0.4.0
+-----
+
+* Requires PMD 6.7.0
+* The new Java rule FieldNamingConventions (java-codestyle)
+* The new Java rule LinguisticNaming (java-codestyle)
+* Remove deprecated rule VariableNamingConventions
+* Remove deprecated rule SuspiciousConstantFieldName
+
 0.3.0
 -----
 
