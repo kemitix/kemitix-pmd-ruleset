@@ -6,7 +6,7 @@
   Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
   [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-** 0.5.1 - 2018-11-11
+** 1.0.0 - 2018-11-11
 
 *** Removed
 
@@ -19,9 +19,9 @@
    * IfStmtsMustUseBraces
    * WhileLoopsMustUseBraces
 
-** 0.4.1
+*** Dependencies
 
-   * Bump kemitix-parent from 5.1.1 to 5.2.0 (#10)
+    * Bump kemitix-parent from 5.1.1 to 5.2.0
 
 ** 0.4.0
 
