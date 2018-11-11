@@ -69,11 +69,6 @@ http://pmd.sourceforge.net/ruleset/2.0.0 ">
     <rule ref="category/java/bestpractices.xml/UseVarargs"/>
 
     <!-- Code Style -->
-    <rule ref="category/java/codestyle.xml/AbstractNaming">
-        <properties>
-            <property name="strict" value="true"/>
-        </properties>
-    </rule>
     <rule ref="category/java/codestyle.xml/AvoidDollarSigns"/>
     <rule ref="category/java/codestyle.xml/AvoidProtectedFieldInFinalClass"/>
     <rule ref="category/java/codestyle.xml/AvoidProtectedMethodInFinalClassNotExtending"/>
@@ -100,10 +95,7 @@ http://pmd.sourceforge.net/ruleset/2.0.0 ">
     </rule>
     <rule ref="category/java/codestyle.xml/FieldNamingConventions" />
     <rule ref="category/java/codestyle.xml/ForLoopShouldBeWhileLoop"/>
-    <rule ref="category/java/codestyle.xml/ForLoopsMustUseBraces"/>
     <rule ref="category/java/codestyle.xml/GenericsNaming"/>
-    <rule ref="category/java/codestyle.xml/IfElseStmtsMustUseBraces"/>
-    <rule ref="category/java/codestyle.xml/IfStmtsMustUseBraces"/>
     <rule ref="category/java/codestyle.xml/LinguisticNaming" />
     <rule ref="category/java/codestyle.xml/LocalVariableCouldBeFinal"/>
     <rule ref="category/java/codestyle.xml/LongVariable"/>
@@ -124,7 +116,6 @@ http://pmd.sourceforge.net/ruleset/2.0.0 ">
     <rule ref="category/java/codestyle.xml/UnnecessaryReturn"/>
     <rule ref="category/java/codestyle.xml/UselessParentheses"/>
     <rule ref="category/java/codestyle.xml/UselessQualifiedThis"/>
-    <rule ref="category/java/codestyle.xml/WhileLoopsMustUseBraces"/>
 
     <!-- Design -->
     <rule ref="category/java/design.xml/AbstractClassWithoutAnyMethod"/>
