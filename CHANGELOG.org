@@ -1,0 +1,51 @@
+* CHANGELOG
+
+  All notable changes to this project will be documented in this file.
+  
+  The format is based on [Keep a
+  Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
+  [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+** 1.0.0 - 2018-11-11
+
+*** Removed
+
+    The following rules are marked as deprecated in PMD and will be removed in
+    PMD 7.0:
+
+   * AbstractNaming
+   * ForLoopsMustUseBraces
+   * IfElseStmtsMustUseBraces
+   * IfStmtsMustUseBraces
+   * WhileLoopsMustUseBraces
+
+*** Dependencies
+
+    * Bump kemitix-parent from 5.1.1 to 5.2.0
+
+** 0.4.0
+
+   * Requires PMD 6.7.0
+   * The new Java rule FieldNamingConventions (java-codestyle)
+   * The new Java rule LinguisticNaming (java-codestyle)
+   * Remove deprecated rule VariableNamingConventions
+   * Remove deprecated rule SuspiciousConstantFieldName
+
+** 0.3.0
+
+   * Upgrade `kemitix-parent` to 5.1.1
+   * Remove unused tiles
+   * Disable PMD check `LawOfDemeter` due to Java Streams giving false positives
+
+** 0.2.1
+
+   * Upgrade `kemitix-parent` to 5.1.0
+
+** 0.2.0
+
+   * Disable `CommentSize` - didn't agree with MIT License headers
+   * Relaxed `AvoidDuplicateLiterals.maxDuplicateLiterals` - value is when to fail, not the max allowed
+
+** 0.1.0
+
+   * Initial release
