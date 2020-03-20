@@ -10,7 +10,18 @@
 
 ** Changed
 
-  - Replace Jenkins with Github Actions
+  * Replace Jenkins with Github Actions (#17)
+  * Replace deprecated rule with InvalidLogMessageFormat (#18)
+
+** Removed
+
+  * Discontinue using Rule UnsynchronizedStaticDateFormatter (#15)
+  * Remove deprecated rule LoggerIsNotStaticFinal (#18)
+
+** Fixed
+
+  * Fix constraints for DataflowAnomalyAnalysis (#14)
+  * Fix CommentRequired uses deprecated property (#18)
 
 * 1.0.0 - 2018-11-11
 
