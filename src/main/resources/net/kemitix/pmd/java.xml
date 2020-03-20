@@ -232,7 +232,7 @@ http://pmd.sourceforge.net/ruleset/2.0.0 ">
     <rule ref="category/java/errorprone.xml/ConstructorCallsOverridableMethod"/>
     <rule ref="category/java/errorprone.xml/DataflowAnomalyAnalysis">
         <properties>
-            <property name="maxViolations" value="0"/>
+            <property name="maxViolations" value="1"/>
         </properties>
     </rule>
     <rule ref="category/java/errorprone.xml/DoNotCallGarbageCollectionExplicitly"/>
