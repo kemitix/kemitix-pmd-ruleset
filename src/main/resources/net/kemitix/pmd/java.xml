@@ -188,7 +188,7 @@ http://pmd.sourceforge.net/ruleset/2.0.0 ">
         <properties>
             <property name="enumCommentRequirement" value="Ignored"/>
             <property name="fieldCommentRequirement" value="Ignored"/>
-            <property name="headerCommentRequirement" value="Ignored"/>
+            <property name="classCommentRequirement" value="Ignored"/>
             <!-- only public and protected methods are required -->
         </properties>
     </rule>
