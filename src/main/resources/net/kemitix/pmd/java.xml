@@ -80,9 +80,7 @@ http://pmd.sourceforge.net/ruleset/2.0.0 ">
     </rule>
     <rule ref="category/java/codestyle.xml/CallSuperInConstructor"/>
     <rule ref="category/java/codestyle.xml/ClassNamingConventions"/>
-    <rule ref="category/java/codestyle.xml/CommentDefaultAccessModifier"/>
     <rule ref="category/java/codestyle.xml/ConfusingTernary"/>
-    <rule ref="category/java/codestyle.xml/DefaultPackage"/>
     <rule ref="category/java/codestyle.xml/DontImportJavaLang"/>
     <rule ref="category/java/codestyle.xml/DuplicateImports"/>
     <rule ref="category/java/codestyle.xml/EmptyMethodInAbstractClassShouldBeAbstract"/>
@@ -102,12 +100,8 @@ http://pmd.sourceforge.net/ruleset/2.0.0 ">
     <rule ref="category/java/codestyle.xml/MethodArgumentCouldBeFinal"/>
     <rule ref="category/java/codestyle.xml/MethodNamingConventions"/>
     <rule ref="category/java/codestyle.xml/NoPackage"/>
-    <rule ref="category/java/codestyle.xml/OnlyOneReturn"/>
     <rule ref="category/java/codestyle.xml/PackageCase"/>
     <rule ref="category/java/codestyle.xml/PrematureDeclaration"/>
-    <rule ref="category/java/codestyle.xml/ShortClassName"/>
-    <rule ref="category/java/codestyle.xml/ShortMethodName"/>
-    <rule ref="category/java/codestyle.xml/ShortVariable"/>
     <rule ref="category/java/codestyle.xml/TooManyStaticImports"/><!-- to review -->
     <rule ref="category/java/codestyle.xml/UnnecessaryConstructor"/>
     <rule ref="category/java/codestyle.xml/UnnecessaryFullyQualifiedName"/>
