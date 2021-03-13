@@ -41,8 +41,6 @@ http://pmd.sourceforge.net/ruleset/2.0.0 ">
             <property name="strictMode" value="true"/>
         </properties>
     </rule>
-    <rule ref="category/java/bestpractices.xml/PositionLiteralsFirstInCaseInsensitiveComparisons"/>
-    <rule ref="category/java/bestpractices.xml/PositionLiteralsFirstInComparisons"/>
     <rule ref="category/java/bestpractices.xml/PreserveStackTrace"/>
     <rule ref="category/java/bestpractices.xml/ReplaceEnumerationWithIterator"/>
     <rule ref="category/java/bestpractices.xml/ReplaceHashtableWithMap"/>
@@ -80,9 +78,7 @@ http://pmd.sourceforge.net/ruleset/2.0.0 ">
     </rule>
     <rule ref="category/java/codestyle.xml/CallSuperInConstructor"/>
     <rule ref="category/java/codestyle.xml/ClassNamingConventions"/>
-    <rule ref="category/java/codestyle.xml/CommentDefaultAccessModifier"/>
     <rule ref="category/java/codestyle.xml/ConfusingTernary"/>
-    <rule ref="category/java/codestyle.xml/DefaultPackage"/>
     <rule ref="category/java/codestyle.xml/DontImportJavaLang"/>
     <rule ref="category/java/codestyle.xml/DuplicateImports"/>
     <rule ref="category/java/codestyle.xml/EmptyMethodInAbstractClassShouldBeAbstract"/>
@@ -102,12 +98,8 @@ http://pmd.sourceforge.net/ruleset/2.0.0 ">
     <rule ref="category/java/codestyle.xml/MethodArgumentCouldBeFinal"/>
     <rule ref="category/java/codestyle.xml/MethodNamingConventions"/>
     <rule ref="category/java/codestyle.xml/NoPackage"/>
-    <rule ref="category/java/codestyle.xml/OnlyOneReturn"/>
     <rule ref="category/java/codestyle.xml/PackageCase"/>
     <rule ref="category/java/codestyle.xml/PrematureDeclaration"/>
-    <rule ref="category/java/codestyle.xml/ShortClassName"/>
-    <rule ref="category/java/codestyle.xml/ShortMethodName"/>
-    <rule ref="category/java/codestyle.xml/ShortVariable"/>
     <rule ref="category/java/codestyle.xml/TooManyStaticImports"/><!-- to review -->
     <rule ref="category/java/codestyle.xml/UnnecessaryConstructor"/>
     <rule ref="category/java/codestyle.xml/UnnecessaryFullyQualifiedName"/>
@@ -178,7 +170,11 @@ http://pmd.sourceforge.net/ruleset/2.0.0 ">
     <rule ref="category/java/design.xml/SingularField"/>
     <rule ref="category/java/design.xml/SwitchDensity"/>
     <rule ref="category/java/design.xml/TooManyFields"/>
-    <rule ref="category/java/design.xml/TooManyMethods"/>
+    <rule ref="category/java/design.xml/TooManyMethods">
+        <properties>
+            <property name="maxmethods" value="20" />
+        </properties>
+    </rule>
     <rule ref="category/java/design.xml/UselessOverridingMethod"/>
     <rule ref="category/java/design.xml/UseObjectForClearerAPI"/>
     <rule ref="category/java/design.xml/UseUtilityClass"/>
@@ -230,11 +226,6 @@ http://pmd.sourceforge.net/ruleset/2.0.0 ">
     <rule ref="category/java/errorprone.xml/CloseResource"/>
     <rule ref="category/java/errorprone.xml/CompareObjectsWithEquals"/>
     <rule ref="category/java/errorprone.xml/ConstructorCallsOverridableMethod"/>
-    <rule ref="category/java/errorprone.xml/DataflowAnomalyAnalysis">
-        <properties>
-            <property name="maxViolations" value="1"/>
-        </properties>
-    </rule>
     <rule ref="category/java/errorprone.xml/DoNotCallGarbageCollectionExplicitly"/>
     <rule ref="category/java/errorprone.xml/DoNotCallSystemExit"/>
     <rule ref="category/java/errorprone.xml/DoNotExtendJavaLangThrowable"/>

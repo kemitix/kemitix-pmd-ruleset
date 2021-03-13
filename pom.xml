@@ -12,7 +12,7 @@
     </parent>
 
     <artifactId>kemitix-pmd-ruleset</artifactId>
-    <version>DEV-SNAPSHOT</version>
+    <version>1.2.0</version>
 
     <name>Kemitix PMD Ruleset</name>
     <description>Kemitix PMD Ruleset for Java</description>
