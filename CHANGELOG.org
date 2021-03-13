@@ -14,12 +14,15 @@
 
 ** Removed
 
-  * CommentDefaultAccessModifier
-  * DefaultPackage
-  * OnlyOneReturn
-  * ShortClassName
-  * ShortMethodName
-  * ShortVariable
+   - PositionLiteralsFirstInCaseInsensitiveComparisons
+   - PositionLiteralsFirstInComparisons
+   - DataflowAnomalyAnalysis
+   - CommentDefaultAccessModifier
+   - DefaultPackage
+   - OnlyOneReturn
+   - ShortClassName
+   - ShortMethodName
+   - ShortVariable
 
 * 1.1.0
 

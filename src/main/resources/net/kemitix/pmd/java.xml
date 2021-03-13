@@ -41,8 +41,6 @@ http://pmd.sourceforge.net/ruleset/2.0.0 ">
             <property name="strictMode" value="true"/>
         </properties>
     </rule>
-    <rule ref="category/java/bestpractices.xml/PositionLiteralsFirstInCaseInsensitiveComparisons"/>
-    <rule ref="category/java/bestpractices.xml/PositionLiteralsFirstInComparisons"/>
     <rule ref="category/java/bestpractices.xml/PreserveStackTrace"/>
     <rule ref="category/java/bestpractices.xml/ReplaceEnumerationWithIterator"/>
     <rule ref="category/java/bestpractices.xml/ReplaceHashtableWithMap"/>
@@ -228,11 +226,6 @@ http://pmd.sourceforge.net/ruleset/2.0.0 ">
     <rule ref="category/java/errorprone.xml/CloseResource"/>
     <rule ref="category/java/errorprone.xml/CompareObjectsWithEquals"/>
     <rule ref="category/java/errorprone.xml/ConstructorCallsOverridableMethod"/>
-    <rule ref="category/java/errorprone.xml/DataflowAnomalyAnalysis">
-        <properties>
-            <property name="maxViolations" value="1"/>
-        </properties>
-    </rule>
     <rule ref="category/java/errorprone.xml/DoNotCallGarbageCollectionExplicitly"/>
     <rule ref="category/java/errorprone.xml/DoNotCallSystemExit"/>
     <rule ref="category/java/errorprone.xml/DoNotExtendJavaLangThrowable"/>
